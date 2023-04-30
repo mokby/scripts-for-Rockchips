@@ -12,7 +12,7 @@ some small and usuful scripts that help you with RK35588 or other Rockchips
 使用方法:`sudo bash quary_temp.sh`
 
 ### set_peformence.sh
-`set_peformence.sh`可以将CPU,GPU和NPU设置为最高频率的性能模式,使用方法`sudo bash set_peformence.sh`
+`set_peformence.sh`可以将CPU,GPU和NPU设置为最高频率的性能模式,使用方法:`sudo bash set_peformence.sh`,此操作会导致温度升高,请注意散热,建议搭配温度监控脚本使用
 
-### `set_origin.sh`
+### set_origin.sh
 `set_origin.sh`可将CPU,GPU和NPU设置为普通模式,分别是`ondemand`,`simple_ondemand`和`simple_ondemand`,使用方法:`sudo bash set_origin.sh`
