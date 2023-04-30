@@ -11,3 +11,8 @@ some small and usuful scripts that help you with RK35588 or other Rockchips
 `quary_temp.sh`会每隔一毫秒查询CPU和NPU的温度并打印在终端上,当用户按下Ctrl+c终止程序运行时,会将信息自动保存至当前目录下的`temp_log.txt`中
 使用方法:`sudo bash quary_temp.sh`
 
+### set_peformence.sh
+`set_peformence.sh`可以将CPU,GPU和NPU设置为最高频率的性能模式,使用方法`sudo bash set_peformence.sh`
+
+### `set_origin.sh`
+`set_origin.sh`可将CPU,GPU和NPU设置为普通模式,分别是`ondemand`,`simple_ondemand`和`simple_ondemand`,使用方法:`sudo bash set_origin.sh`
