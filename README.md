@@ -16,3 +16,6 @@ some small and usuful scripts that help you with RK35588 or other Rockchips
 
 ### set_origin.sh
 `set_origin.sh`可将CPU,GPU和NPU设置为普通模式,分别是`ondemand`,`simple_ondemand`和`simple_ondemand`,使用方法:`sudo bash set_origin.sh`
+
+### get_qut.sh
+`get_qut.sh`会统计目录下有多少张jpg图片，然后询问用户需要多少张做量化，给出数值后就会生成官方要求的用于量化的txt文件，例如：`val2017/000000468505.jpg`。使用方法：将`get_qut.sh`移动到需要统计图片的文件夹下，进入终端输入`bash get_qut.sh`,然后就会生成dataset.txt
